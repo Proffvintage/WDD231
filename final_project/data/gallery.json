@@ -1,0 +1,42 @@
+[
+  {
+    "src": "images/gallery1.webp",
+    "alt": "A worker cleaning a car",
+    "caption": "A worker cleaning a car"
+  },
+  {
+    "src": "images/gallery2.webp",
+    "alt": "Interior car detailing",
+    "caption": "Interior Car Detailing"
+  },
+  {
+    "src": "images/gallery3.webp",
+    "alt": " A Freshly vacuumed car interior",
+    "caption": " A Freshly vacuumed car interior"
+  },
+  {
+    "src": "images/gallery4.webp",
+    "alt": "An almost cleaned car",
+    "caption": "An Almost Cleaned Car"
+  },
+  {
+    "src": "images/gallery5.webp",
+    "alt": "Full image of how we detail cars",
+    "caption": "Full Image of How We Detail Cars"
+  },
+  {
+    "src": "images/gallery6.webp",
+    "alt": "Thorough cleaning of interior surfaces",
+    "caption": "Thorough Cleaning of Interior Surfaces"
+  },
+  {
+    "src": "images/gallery7.webp",
+    "alt": "Thoroughly cleaning of a dashboard",
+    "caption": "Thoroughly Cleaning of a Dashboard"
+  },
+  {
+    "src": "images/gallery8.webp",
+    "alt": "Exterior detailing of a car",
+    "caption": "Exterior Detailing of a Car"
+  }
+]

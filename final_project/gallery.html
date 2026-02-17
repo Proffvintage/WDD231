@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Markson Samuel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="UCHIHA CAR CARE | Gallery - Our Work in Action">
+    <meta name="Description" content="Explore the UCHIHA CAR CARE gallery showcasing our exceptional car detailing services and the transformations we've achieved for our clients.">
+    <title>UCHIHA CAR CARE | A Car Detailing Service</title>
+    
+    <link rel="stylesheet" href="styles/clean_sweep.css">
+    <link rel="stylesheet" href="styles/clean_sweep_large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/Gemini_Generated_Image_ji5me1ji5me1ji5m.png" type="image/x-icon">
+
+    <meta property="og:title" content="UCHIHA CAR CARE">
+    <meta property="og:description" content="UCHIHA CAR CARE is a premium car detailing service for all your vehicle needs">
+    <meta property="og:url" content="https://github.io/proffvintage/wdd231/final_project/index.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="images/Gemini_Generated_Image_ji5me1ji5me1ji5m.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="UCHIHA CAR CARE">
+</head>
+<body>
+    <header>
+        <div class="logo_container">
+        <img src="images/Gemini_Generated_Image_ji5me1ji5me1ji5m.png" alt="UCHIHA CAR CARE company logo">
+        </div>
+            <button id="hamburger" aria-label="Toggle navigation">
+                <span id="hamburger-icon">☰</span>
+            </button>
+        <nav id="mobile-nav" class="nav_menu_items">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="pricing_services.html">Services</a></li>
+                <li><a href="diy_tips.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section class="uchiha-car-care-gallery">
+        <h1>Our Work in Action</h1>
+        <div class="gallery_grid">
+        </div>
+        </section>
+        <form action="contact_confirmation.html" method="get">
+            <div class="contact-banner">
+                <h1>Contact Us</h1>
+                <p>If you have any questions or would like to learn more about our services, please fill out the form below</p>
+            </div>
+            <section class="join-form">
+                    <!-- First Name -->
+                    <label>
+                        First Name:
+                        <input type="text" name="firstName" title="Applicant First Name" autocomplete="given-name" required>
+                    </label>
+                    <!-- Last Name -->
+                <label>
+                    Last Name:
+                    <input type="text" name="lastName" title="Applicant Last Name" autocomplete="family-name" required>
+                </label>
+                <!-- Email -->
+                <label>
+                    Email:
+                    <input type="email" name="email" title="Email Address" autocomplete="email" required 
+                    placeholder="example@domain.com">
+                </label>
+                <!-- Mobile Phone -->
+                <label>
+                    Mobile Phone:
+                    <input type="tel" name="mobile" title="Mobile Phone Number" autocomplete="tel" required>
+                </label>
+                <!-- Submit Button -->
+                <button type="submit">Talk to your UCHIHA CAR CARE Specialist</button>
+            </section>
+        </form>
+
+    </main>
+    <dialog id="galleryModal">
+        <figure>
+            <img id="modalImg" alt="">
+            <figcaption id="modalCaption"></figcaption>
+        </figure>
+        <button id="closeModal" aria-label="Close modal">✖</button>
+    </dialog>
+
+    
+    <footer>
+        <nav class="nav_menu_items">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="pricing_services.html">Services</a></li>
+                <li><a href="diy_tips.html">Blog</a></li>
+            </ul>
+        </nav>
+        <section>
+        <p>
+            <span id="footerDate"></span><br>
+            &copy; UCHIHA CAR CARE. All rights reserved.
+        </p>
+        <p>Designed by Markson Samuel</p>
+        </section>
+        <div class="social_media_links">
+            <a href="facebook.com" aria-label="Facebook"><img src="images/facebook-icon.webp" alt="Facebook Icon"></a>
+            <a href="x.com" aria-label="Twitter"><img src="images/twitter_icon.webp" alt="Twitter Icon"></a>
+            <a href="instagram.com" aria-label="Instagram"><img src="images/instagram-icon.webp" alt="Instagram Icon"></a>
+            <a href="https://www.loom.com/share/" aria-label="Loom Video Presentation"><img src="images/loom-icon.webp" alt="Loom Icon"></a>
+        </div>
+    </footer>
+    
+    <script defer src="scripts/clean_sweep.js"></script>
+    <script defer src="scripts/gallery.js"></script>
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/date.js"></script>
+</body>
+</html>
